@@ -21,12 +21,15 @@ class MainApp:
         self.source_rows_column = ft.Column(scroll=ft.ScrollMode.ALWAYS, spacing=6)
         self.mapping_rows_column = ft.Column(scroll=ft.ScrollMode.ALWAYS, spacing=6)
         self.malla_rows_column = ft.Column(scroll=ft.ScrollMode.ALWAYS, spacing=4)
+        self.manual_table_column = ft.Column(scroll=ft.ScrollMode.ALWAYS, spacing=4)
         self.summary_text = ft.Text("")
         self.status_text = ft.Text("", size=12)
+        self.manual_table_summary = ft.Text("", size=12, color=ft.Colors.BLUE_GREY_700)
         self.search_center_results = ft.Column(spacing=2)
         self.center_study_info = ft.Text("", size=12, color=ft.Colors.BLUE_GREY_700)
         self.source_code_dd = None
         self.dest_code_dd = None
+        self.manual_mapping_controls = {}
 
         self.content = ft.Container(expand=True, padding=20)
         self.nav = ft.NavigationRail(
@@ -262,6 +265,227 @@ class MainApp:
         if self.dest_code_dd:
             self.dest_code_dd.options = dest_opts
 
+    def refresh_manual_table_summary(self):
+        conva_count = 0
+        reco_count = 0
+
+        for controls in self.manual_mapping_controls.values():
+            if controls["conva"].value:
+                conva_count += 1
+            if controls["reco"].value:
+                reco_count += 1
+
+        self.manual_table_summary.value = (
+            f"Total convalidados: {conva_count} | "
+            f"Total recomendados: {reco_count} | "
+            f"Cursos origen registrados: {len(self.state.source_courses)}"
+        )
+
+    def on_manual_flags_change(self, e):
+        self.refresh_manual_table_summary()
+        self.page.update()
+
+    def on_manual_source_select(self, dest_code):
+        def _handler(e):
+            controls = self.manual_mapping_controls[dest_code]
+            source_code = controls["source"].value or ""
+            source = next((x for x in self.state.source_courses if x.codigo == source_code), None)
+
+            if not source:
+                controls["source_name"].value = ""
+                controls["source_credits"].value = ""
+                controls["source_nota"].value = ""
+                controls["percent_diff"].value = "-"
+            else:
+                controls["source_name"].value = source.nombre
+                controls["source_credits"].value = str(source.creditos)
+                controls["source_nota"].value = str(source.nota)
+                try:
+                    course_credits = float(controls["course"].get("credits") or 0)
+                    if course_credits > 0:
+                        diff = ((course_credits - float(source.creditos or 0)) / course_credits) * 100
+                        controls["percent_diff"].value = f"{round(diff)}%"
+                    else:
+                        controls["percent_diff"].value = "-"
+                except Exception:
+                    controls["percent_diff"].value = "-"
+                if not controls["conva"].value and not controls["reco"].value:
+                    controls["conva"].value = True
+
+            self.refresh_manual_table_summary()
+            self.page.update()
+
+        return _handler
+
+    def refresh_manual_equivalence_rows(self):
+        self.manual_table_column.controls.clear()
+        self.manual_mapping_controls = {}
+
+        malla = self.state.selected_malla
+        if not malla:
+            self.manual_table_column.controls.append(ft.Text("Carga primero la malla destino para trabajar equivalencias manuales."))
+            self.refresh_manual_table_summary()
+            return
+
+        source_options = [ft.dropdown.Option(x.codigo, text=x.codigo) for x in self.state.source_courses]
+        mapping_by_dest = {item.destino_codigo: item for item in self.state.mappings}
+        source_by_code = {item.codigo: item for item in self.state.source_courses}
+
+        header = ft.Container(
+            content=ft.Row(
+                [
+                    ft.Text("Ciclo", width=45, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE),
+                    ft.Text("Código UPN", width=95, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE),
+                    ft.Text("Curso UPN", width=290, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE),
+                    ft.Text("Cred", width=45, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE),
+                    ft.Text("Req.", width=180, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE),
+                    ft.Text("Código origen", width=130, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE),
+                    ft.Text("Nombre curso origen", width=230, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE),
+                    ft.Text("Cred. origen", width=80, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE),
+                    ft.Text("Nota", width=60, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE),
+                    ft.Text("Conva", width=58, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE),
+                    ft.Text("Reco", width=50, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE),
+                    ft.Text("% Dif.", width=65, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE),
+                ],
+                spacing=8,
+            ),
+            bgcolor=ft.Colors.BLACK,
+            padding=8,
+            border_radius=8,
+        )
+        self.manual_table_column.controls.append(header)
+
+        for course in malla.get("courses", []):
+            dest_code = course.get("code")
+            current_mapping = mapping_by_dest.get(dest_code)
+            current_source = source_by_code.get(current_mapping.origen_codigo) if current_mapping else None
+
+            source_dd = ft.Dropdown(
+                width=130,
+                options=source_options,
+                value=current_mapping.origen_codigo if current_mapping else None,
+                enable_filter=True,
+                enable_search=True,
+                editable=True,
+                hint_text="Curso origen",
+            )
+            source_name = ft.TextField(
+                width=230,
+                value=current_source.nombre if current_source else "",
+                read_only=True,
+                bgcolor=ft.Colors.YELLOW_100,
+            )
+            source_credits = ft.TextField(
+                width=80,
+                value=str(current_source.creditos) if current_source else "",
+                read_only=True,
+                bgcolor=ft.Colors.YELLOW_100,
+            )
+            source_nota = ft.TextField(
+                width=60,
+                value=str(current_source.nota) if current_source else "",
+                read_only=True,
+                bgcolor=ft.Colors.YELLOW_100,
+            )
+            conva_chk = ft.Checkbox(
+                value=bool(current_mapping and "CONVA" in current_mapping.estado.upper()),
+            )
+            reco_chk = ft.Checkbox(
+                value=bool(current_mapping and "RECO" in current_mapping.estado.upper()),
+            )
+
+            percent_diff = "-"
+            if current_source and course.get("credits") not in (None, ""):
+                try:
+                    percent_diff = f"{round(((float(course.get('credits')) - float(current_source.creditos)) / float(course.get('credits'))) * 100)}%"
+                except Exception:
+                    percent_diff = "-"
+
+            self.manual_mapping_controls[dest_code] = {
+                "source": source_dd,
+                "source_name": source_name,
+                "source_credits": source_credits,
+                "source_nota": source_nota,
+                "conva": conva_chk,
+                "reco": reco_chk,
+                "course": course,
+                "percent_diff": ft.Text(percent_diff, width=65, color=ft.Colors.BLUE_700),
+            }
+
+            source_dd.on_select = self.on_manual_source_select(dest_code)
+            conva_chk.on_change = self.on_manual_flags_change
+            reco_chk.on_change = self.on_manual_flags_change
+
+            percent_diff_text = self.manual_mapping_controls[dest_code]["percent_diff"]
+
+            row = ft.Container(
+                content=ft.Row(
+                    [
+                        ft.Text(str(course.get("cycle") or ""), width=45),
+                        ft.Text(dest_code or "", width=95),
+                        ft.Text(course.get("name") or "", width=290),
+                        ft.Text(str(course.get("credits") or ""), width=45),
+                        ft.Text(str(course.get("requirements") or ""), width=180, size=11),
+                        source_dd,
+                        source_name,
+                        source_credits,
+                        source_nota,
+                        ft.Container(content=conva_chk, width=58),
+                        ft.Container(content=reco_chk, width=50),
+                        percent_diff_text,
+                    ],
+                    spacing=8,
+                    vertical_alignment=ft.CrossAxisAlignment.CENTER,
+                ),
+                padding=6,
+                bgcolor=ft.Colors.YELLOW_100,
+                border=ft.border.only(bottom=ft.BorderSide(1, ft.Colors.BLACK12)),
+            )
+            self.manual_table_column.controls.append(row)
+
+        self.refresh_manual_table_summary()
+
+    def save_manual_table_mappings(self, e):
+        new_mappings = []
+
+        for dest_code, controls in self.manual_mapping_controls.items():
+            source_code = controls["source"].value or ""
+            if not source_code:
+                continue
+            if not controls["conva"].value and not controls["reco"].value:
+                continue
+
+            source = next((x for x in self.state.source_courses if x.codigo == source_code), None)
+            if not source:
+                continue
+
+            course = controls["course"]
+            states = []
+            if controls["conva"].value:
+                states.append("CONVA")
+            if controls["reco"].value:
+                states.append("RECO")
+
+            new_mappings.append(
+                CourseMapping(
+                    origen_codigo=source.codigo,
+                    origen_nombre=source.nombre,
+                    destino_codigo=dest_code,
+                    destino_nombre=course.get("name") or "",
+                    creditos_origen=float(source.creditos or 0),
+                    creditos_destino=float(course.get("credits") or 0),
+                    score=100.0,
+                    estado="MANUAL " + "/".join(states),
+                    observacion="Asignado desde la tabla manual de equivalencias.",
+                )
+            )
+
+        self.state.mappings = new_mappings
+        self.refresh_mapping_rows()
+        self.refresh_manual_table_summary()
+        self.page.update()
+        self.show_message(f"Equivalencias manuales guardadas: {len(new_mappings)}")
+
     # ---------- actions ----------
     def on_formato_change(self, e):
         self.page.update()
@@ -370,6 +594,8 @@ class MainApp:
         self.source_input_creditos.value = ""
         self.source_input_nota.value = ""
         self.refresh_source_rows()
+        if self.current_view == "equivalencias":
+            self.refresh_manual_equivalence_rows()
         self.page.update()
         self.show_message("Curso origen agregado.")
 
@@ -388,6 +614,8 @@ class MainApp:
             min_score=58,
         )
         self.refresh_mapping_rows()
+        if self.current_view == "equivalencias":
+            self.refresh_manual_equivalence_rows()
         self.page.update()
         self.show_message(f"Se generaron {len(self.state.mappings)} recomendaciones.")
 
@@ -552,11 +780,6 @@ class MainApp:
         ], spacing=14)
 
     def build_equivalencias(self):
-        if self.source_code_dd is None:
-            self.source_code_dd = ft.Dropdown(label="Curso origen", width=220, options=[])
-        if self.dest_code_dd is None:
-            self.dest_code_dd = ft.Dropdown(label="Curso destino", width=220, options=[])
-
         if not hasattr(self, "source_input_codigo"):
             self.source_input_codigo = ft.TextField(label="Código", width=150)
             self.source_input_nombre = ft.TextField(label="Nombre curso origen", width=420)
@@ -572,31 +795,37 @@ class MainApp:
 
         self.refresh_source_rows()
         self.refresh_mapping_rows()
-        self.refresh_malla_rows()
+        self.refresh_manual_equivalence_rows()
 
         return ft.Column([
-            ft.Text("Motor de equivalencias", size=24, weight=ft.FontWeight.BOLD),
+            ft.Text("Tabla de equivalencias", size=24, weight=ft.FontWeight.BOLD),
             ft.Row([
                 self.card("Agregar curso origen", ft.Column([
                     ft.Row([self.source_input_codigo, self.source_input_nombre], wrap=True),
                     ft.Row([self.source_input_creditos, self.source_input_nota, self.source_input_tipo, self.source_input_aprobado], wrap=True),
                     ft.ElevatedButton("Agregar curso", on_click=self.add_source_course),
                 ]), width=760),
-                self.card("Acciones", ft.Column([
-                    ft.ElevatedButton("Auto recomendar", on_click=self.auto_recommend),
+                self.card("Resumen", ft.Column([
+                    ft.Text(f"Carrera: {self.state.header.carrera_nombre or '-'}"),
+                    ft.Text(f"Modalidad: {self.state.header.modalidad or '-'}"),
+                    ft.Text(f"Año validez: {self.state.header.anio_validez or '-'}"),
+                    self.manual_table_summary,
+                    ft.ElevatedButton("Guardar equivalencias manuales", on_click=self.save_manual_table_mappings),
+                    ft.OutlinedButton("Auto recomendar", on_click=self.auto_recommend),
                     ft.OutlinedButton("Guardar proyecto", on_click=self.save_project_action),
-                    self.summary_text,
                 ]), width=300),
             ], wrap=True),
+            self.card(
+                "Vista operativa tipo Excel",
+                ft.Container(
+                    content=self.manual_table_column,
+                    height=520,
+                ),
+            ),
             ft.Row([
-                self.card("Cursos origen", ft.Container(content=self.source_rows_column, height=300), width=520),
-                self.card("Mapeos", ft.Container(content=self.mapping_rows_column, height=300), width=520),
+                self.card("Cursos origen registrados", ft.Container(content=self.source_rows_column, height=240), width=560),
+                self.card("Equivalencias guardadas", ft.Container(content=self.mapping_rows_column, height=240), width=560),
             ], wrap=True),
-            self.card("Mapeo manual", ft.Row([
-                self.source_code_dd,
-                self.dest_code_dd,
-                ft.ElevatedButton("Agregar mapeo manual", on_click=self.add_manual_mapping),
-            ], wrap=True)),
             self.status_text,
         ], spacing=14)
 
