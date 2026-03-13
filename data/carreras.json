@@ -1,0 +1,688 @@
+[
+  {
+    "name": "ADMINISTRACIÓN",
+    "code": "ADM",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": "ADMINISTRACION"
+  },
+  {
+    "name": "ADMINISTRACIÓN BANCARIA Y FINANCIERA",
+    "code": "ABF",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "ADMINISTRACIÓN Y GESTIÓN COMERCIAL",
+    "code": "AGC",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "ADMINISTRACIÓN Y GESTIÓN DEL TALENTO HUMANO",
+    "code": "AGT",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "ADMINISTRACIÓN Y GESTIÓN EMPRESARIAL",
+    "code": "AGE",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "ADMINISTRACIÓN Y GESTIÓN PÚBLICA",
+    "code": "GPU",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "ADMINISTRACIÓN Y MARKETING",
+    "code": "AMK",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "ADMINISTRACIÓN Y NEGOCIOS INTERNACIONALES",
+    "code": "ANI",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "ADMINISTRACIÓN Y SERVICIOS TURÍSTICOS",
+    "code": "AST",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "ARQUITECTURA Y DISEÑO DE INTERIORES",
+    "code": "ADI",
+    "faculty": "ARQUITECTURA Y DISEÑO",
+    "faculty_code": "AR",
+    "name_no_accents": null
+  },
+  {
+    "name": "ARQUITECTURA Y GESTIÓN DE PROYECTOS",
+    "code": "AGP",
+    "faculty": "ARQUITECTURA Y DISEÑO",
+    "faculty_code": "AR",
+    "name_no_accents": null
+  },
+  {
+    "name": "ARQUITECTURA Y URBANISMO",
+    "code": "AUR",
+    "faculty": "ARQUITECTURA Y DISEÑO",
+    "faculty_code": "AR",
+    "name_no_accents": null
+  },
+  {
+    "name": "COMUNICACIÓN",
+    "code": "COM",
+    "faculty": "COMUNICACIONES",
+    "faculty_code": "CO",
+    "name_no_accents": null
+  },
+  {
+    "name": "COMUNICACIÓN AUDIOVISUAL EN MEDIOS DIGITALES",
+    "code": "CAM",
+    "faculty": "COMUNICACIONES",
+    "faculty_code": "CO",
+    "name_no_accents": null
+  },
+  {
+    "name": "COMUNICACIÓN CORPORATIVA",
+    "code": "CCR",
+    "faculty": "COMUNICACIONES",
+    "faculty_code": "CO",
+    "name_no_accents": null
+  },
+  {
+    "name": "COMUNICACIÓN Y DISEÑO GRÁFICO",
+    "code": "CDG",
+    "faculty": "COMUNICACIONES",
+    "faculty_code": "CO",
+    "name_no_accents": null
+  },
+  {
+    "name": "COMUNICACIÓN Y MARKETING DIGITAL",
+    "code": "CMD",
+    "faculty": "COMUNICACIONES",
+    "faculty_code": "CO",
+    "name_no_accents": null
+  },
+  {
+    "name": "COMUNICACIÓN Y PERIODISMO",
+    "code": "CPE",
+    "faculty": "COMUNICACIONES",
+    "faculty_code": "CO",
+    "name_no_accents": null
+  },
+  {
+    "name": "COMUNICACIÓN Y PUBLICIDAD",
+    "code": "CPU",
+    "faculty": "COMUNICACIONES",
+    "faculty_code": "CO",
+    "name_no_accents": null
+  },
+  {
+    "name": "CONTABILIDAD Y FINANZAS",
+    "code": "CON",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "DERECHO",
+    "code": "DEH",
+    "faculty": "DERECHO Y CIENCIAS POLÍTICAS",
+    "faculty_code": "DE",
+    "name_no_accents": null
+  },
+  {
+    "name": "DERECHO Y CIENCIAS POLÍTICAS",
+    "code": "DER",
+    "faculty": "DERECHO Y CIENCIAS POLÍTICAS",
+    "faculty_code": "DE",
+    "name_no_accents": null
+  },
+  {
+    "name": "DISEÑO INDUSTRIAL",
+    "code": "DIN",
+    "faculty": "ARQUITECTURA Y DISEÑO",
+    "faculty_code": "AR",
+    "name_no_accents": null
+  },
+  {
+    "name": "ECONOMÍA",
+    "code": "ECO",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "ECONOMÍA Y NEGOCIOS INTERNACIONALES",
+    "code": "ENI",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "EDUCACIÓN Y GESTIÓN DEL APRENDIZAJE",
+    "code": "EDG",
+    "faculty": "COMUNICACIONES",
+    "faculty_code": "CO",
+    "name_no_accents": null
+  },
+  {
+    "name": "ENFERMERÍA",
+    "code": "ENF",
+    "faculty": "CIENCIAS DE LA SALUD",
+    "faculty_code": "SA",
+    "name_no_accents": null
+  },
+  {
+    "name": "GASTRONOMÍA Y GESTIÓN DE RESTAURANTES",
+    "code": "GGR",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA AGROINDUSTRIAL",
+    "code": "AGR",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA AMBIENTAL",
+    "code": "AMB",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA CIVIL",
+    "code": "CIV",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA DE MINAS",
+    "code": "MIN",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA DE SISTEMAS COMPUTACIONALES",
+    "code": "SIC",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA DE SISTEMAS Y REDES",
+    "code": "ISR",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA DE SOFTWARE",
+    "code": "ISW",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA ELECTRÓNICA",
+    "code": "ELE",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA EMPRESARIAL",
+    "code": "EMP",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA EN CIENCIA DE DATOS",
+    "code": "ICD",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA GEOLÓGICA",
+    "code": "GEO",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA INDUSTRIAL",
+    "code": "IND",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA LOGÍSTICA Y TRANSPORTE",
+    "code": "ILT",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA MECATRÓNICA",
+    "code": "MCT",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "MARKETING INTERNACIONAL",
+    "code": "MKI",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "MEDICINA HUMANA",
+    "code": "MEH",
+    "faculty": "CIENCIAS DE LA SALUD",
+    "faculty_code": "SA",
+    "name_no_accents": null
+  },
+  {
+    "name": "NEGOCIOS INTERNACIONALES",
+    "code": "NII",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "NUTRICIÓN Y DIETÉTICA",
+    "code": "NUT",
+    "faculty": "CIENCIAS DE LA SALUD",
+    "faculty_code": "SA",
+    "name_no_accents": null
+  },
+  {
+    "name": "OBSTETRICIA",
+    "code": "OBS",
+    "faculty": "CIENCIAS DE LA SALUD",
+    "faculty_code": "SA",
+    "name_no_accents": null
+  },
+  {
+    "name": "PSICOLOGÍA",
+    "code": "PSI",
+    "faculty": "CIENCIAS DE LA SALUD",
+    "faculty_code": "SA",
+    "name_no_accents": null
+  },
+  {
+    "name": "TECNOLOGÍA MÉDICA, ESPECIALIDAD DE TERAPIA FÍSICA Y REHABILITACIÓN",
+    "code": "TFI",
+    "faculty": "CIENCIAS DE LA SALUD",
+    "faculty_code": "SA",
+    "name_no_accents": null
+  },
+  {
+    "name": "TECNOLOGÍA MÉDICA, ESPECIALIDAD DE TERAPIA FÍSICA Y REHABILITACIÓN",
+    "code": "TFI",
+    "faculty": "CIENCIAS DE LA SALUD",
+    "faculty_code": "SA",
+    "name_no_accents": null
+  },
+  {
+    "name": "ADMINISTRACIÓN Y GESTIÓN DEL TALENTO HUMANO",
+    "code": "AGT",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "ADMINISTRACIÓN Y GESTIÓN EMPRESARIAL",
+    "code": "AGE",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "ADMINISTRACIÓN Y GESTIÓN PÚBLICA",
+    "code": "GPU",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "ADMINISTRACIÓN Y MARKETING",
+    "code": "AMK",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "ADMINISTRACIÓN Y NEGOCIOS INTERNACIONALES",
+    "code": "ANI",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "ADMINISTRACIÓN Y SERVICIOS TURÍSTICOS",
+    "code": "AST",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "ARQUITECTURA Y DISEÑO DE INTERIORES",
+    "code": "ADI",
+    "faculty": "ARQUITECTURA Y DISEÑO",
+    "faculty_code": "AR",
+    "name_no_accents": null
+  },
+  {
+    "name": "ARQUITECTURA Y GESTIÓN DE PROYECTOS",
+    "code": "AGP",
+    "faculty": "ARQUITECTURA Y DISEÑO",
+    "faculty_code": "AR",
+    "name_no_accents": null
+  },
+  {
+    "name": "ARQUITECTURA Y URBANISMO",
+    "code": "AUR",
+    "faculty": "ARQUITECTURA Y DISEÑO",
+    "faculty_code": "AR",
+    "name_no_accents": null
+  },
+  {
+    "name": "COMUNICACIÓN",
+    "code": "COM",
+    "faculty": "COMUNICACIONES",
+    "faculty_code": "CO",
+    "name_no_accents": null
+  },
+  {
+    "name": "COMUNICACIÓN AUDIOVISUAL EN MEDIOS DIGITALES",
+    "code": "CAM",
+    "faculty": "COMUNICACIONES",
+    "faculty_code": "CO",
+    "name_no_accents": null
+  },
+  {
+    "name": "COMUNICACIÓN CORPORATIVA",
+    "code": "CCR",
+    "faculty": "COMUNICACIONES",
+    "faculty_code": "CO",
+    "name_no_accents": null
+  },
+  {
+    "name": "COMUNICACIÓN Y DISEÑO GRÁFICO",
+    "code": "CDG",
+    "faculty": "COMUNICACIONES",
+    "faculty_code": "CO",
+    "name_no_accents": null
+  },
+  {
+    "name": "COMUNICACIÓN Y MARKETING DIGITAL",
+    "code": "CMD",
+    "faculty": "COMUNICACIONES",
+    "faculty_code": "CO",
+    "name_no_accents": null
+  },
+  {
+    "name": "COMUNICACIÓN Y PERIODISMO",
+    "code": "CPE",
+    "faculty": "COMUNICACIONES",
+    "faculty_code": "CO",
+    "name_no_accents": null
+  },
+  {
+    "name": "COMUNICACIÓN Y PUBLICIDAD",
+    "code": "CPU",
+    "faculty": "COMUNICACIONES",
+    "faculty_code": "CO",
+    "name_no_accents": null
+  },
+  {
+    "name": "CONTABILIDAD Y FINANZAS",
+    "code": "CON",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "DERECHO",
+    "code": "DEH",
+    "faculty": "DERECHO Y CIENCIAS POLÍTICAS",
+    "faculty_code": "DE",
+    "name_no_accents": null
+  },
+  {
+    "name": "DERECHO Y CIENCIAS POLÍTICAS",
+    "code": "DER",
+    "faculty": "DERECHO Y CIENCIAS POLÍTICAS",
+    "faculty_code": "DE",
+    "name_no_accents": null
+  },
+  {
+    "name": "DISEÑO INDUSTRIAL",
+    "code": "DIN",
+    "faculty": "ARQUITECTURA Y DISEÑO",
+    "faculty_code": "AR",
+    "name_no_accents": null
+  },
+  {
+    "name": "ECONOMÍA",
+    "code": "ECO",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "ECONOMÍA Y NEGOCIOS INTERNACIONALES",
+    "code": "ENI",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "EDUCACIÓN Y GESTIÓN DEL APRENDIZAJE",
+    "code": "EDG",
+    "faculty": "COMUNICACIONES",
+    "faculty_code": "CO",
+    "name_no_accents": null
+  },
+  {
+    "name": "ENFERMERÍA",
+    "code": "ENF",
+    "faculty": "CIENCIAS DE LA SALUD",
+    "faculty_code": "SA",
+    "name_no_accents": null
+  },
+  {
+    "name": "GASTRONOMÍA Y GESTIÓN DE RESTAURANTES",
+    "code": "GGR",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA AGROINDUSTRIAL",
+    "code": "AGR",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA AMBIENTAL",
+    "code": "AMB",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA CIVIL",
+    "code": "CIV",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA DE MINAS",
+    "code": "MIN",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA DE SISTEMAS COMPUTACIONALES",
+    "code": "SIC",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA DE SISTEMAS Y REDES",
+    "code": "ISR",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA DE SOFTWARE",
+    "code": "ISW",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA ELECTRÓNICA",
+    "code": "ELE",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA EMPRESARIAL",
+    "code": "EMP",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA EN CIENCIA DE DATOS",
+    "code": "ICD",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA GEOLÓGICA",
+    "code": "GEO",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA INDUSTRIAL",
+    "code": "IND",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA LOGÍSTICA Y TRANSPORTE",
+    "code": "ILT",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "INGENIERÍA MECATRÓNICA",
+    "code": "MCT",
+    "faculty": "INGENIERÍA",
+    "faculty_code": "IN",
+    "name_no_accents": null
+  },
+  {
+    "name": "MARKETING INTERNACIONAL",
+    "code": "MKI",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "MEDICINA HUMANA",
+    "code": "MEH",
+    "faculty": "CIENCIAS DE LA SALUD",
+    "faculty_code": "SA",
+    "name_no_accents": null
+  },
+  {
+    "name": "NEGOCIOS INTERNACIONALES",
+    "code": "NII",
+    "faculty": "NEGOCIOS",
+    "faculty_code": "NE",
+    "name_no_accents": null
+  },
+  {
+    "name": "NUTRICIÓN Y DIETÉTICA",
+    "code": "NUT",
+    "faculty": "CIENCIAS DE LA SALUD",
+    "faculty_code": "SA",
+    "name_no_accents": null
+  },
+  {
+    "name": "OBSTETRICIA",
+    "code": "OBS",
+    "faculty": "CIENCIAS DE LA SALUD",
+    "faculty_code": "SA",
+    "name_no_accents": null
+  },
+  {
+    "name": "PSICOLOGÍA",
+    "code": "PSI",
+    "faculty": "CIENCIAS DE LA SALUD",
+    "faculty_code": "SA",
+    "name_no_accents": null
+  },
+  {
+    "name": "TECNOLOGÍA MÉDICA, ESPECIALIDAD DE TERAPIA FÍSICA Y REHABILITACIÓN",
+    "code": "TFI",
+    "faculty": "CIENCIAS DE LA SALUD",
+    "faculty_code": "SA",
+    "name_no_accents": null
+  },
+  {
+    "name": "TECNOLOGÍA MÉDICA, ESPECIALIDAD DE TERAPIA FÍSICA Y REHABILITACIÓN",
+    "code": "TFI",
+    "faculty": "CIENCIAS DE LA SALUD",
+    "faculty_code": "SA",
+    "name_no_accents": null
+  },
+  {
+    "name": "SI VA A INSERTAR FILAS HAGALO 1 FILA POR ENCIMA DE ESTA, O 2 POR DEBAJO DE LA PRIMERA",
+    "code": null,
+    "faculty": null,
+    "faculty_code": null,
+    "name_no_accents": null
+  }
+]

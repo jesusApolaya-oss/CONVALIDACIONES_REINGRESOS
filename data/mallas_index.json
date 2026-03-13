@@ -1,0 +1,2172 @@
+[
+  {
+    "career_code": "ABF",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "ABFUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "DIN",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "DINUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "EMP",
+    "modality": "WV",
+    "validity": ">=2025",
+    "sheet_name": "EMPWV>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ISR",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "ISRUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "MCT",
+    "modality": "US",
+    "validity": ">=2023",
+    "sheet_name": "MCTUS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "IND",
+    "modality": "WV",
+    "validity": ">=2024",
+    "sheet_name": "INDWV>=2024",
+    "catalog_period": "224000"
+  },
+  {
+    "career_code": "EMP",
+    "modality": "WV",
+    "validity": ">=2024",
+    "sheet_name": "EMPWV>=2024",
+    "catalog_period": "224000"
+  },
+  {
+    "career_code": "ENI",
+    "modality": "WV",
+    "validity": ">=2025",
+    "sheet_name": "ENIWV>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ECO",
+    "modality": "WV",
+    "validity": ">=2025",
+    "sheet_name": "ECOWV>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "CON",
+    "modality": "WV",
+    "validity": ">=2025",
+    "sheet_name": "CONWV>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ANI",
+    "modality": "WV",
+    "validity": ">=2025",
+    "sheet_name": "ANIWV>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "AMK",
+    "modality": "WV",
+    "validity": ">=2025",
+    "sheet_name": "AMKWV>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "GPU",
+    "modality": "WV",
+    "validity": ">=2025",
+    "sheet_name": "GPUWV>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "AGC",
+    "modality": "WV",
+    "validity": ">=2025",
+    "sheet_name": "AGCWV>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ADM",
+    "modality": "WV",
+    "validity": ">=2025",
+    "sheet_name": "ADMWV>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ABF",
+    "modality": "WV",
+    "validity": ">=2025",
+    "sheet_name": "ABFWV>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "CON",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "CONUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "AGEM",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "AGEMUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "MKI",
+    "modality": "US",
+    "validity": ">=2024",
+    "sheet_name": "MKIUS>=2024",
+    "catalog_period": "224000"
+  },
+  {
+    "career_code": "AGE",
+    "modality": "US",
+    "validity": ">=2024",
+    "sheet_name": "AGEUS>=2024",
+    "catalog_period": "224000"
+  },
+  {
+    "career_code": "NII",
+    "modality": "US",
+    "validity": ">=2024",
+    "sheet_name": "NIIUS>=2024",
+    "catalog_period": "224000"
+  },
+  {
+    "career_code": "MEH",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "MEHUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "TFI",
+    "modality": "US",
+    "validity": ">=2024",
+    "sheet_name": "TFIUS>=2024",
+    "catalog_period": "224000"
+  },
+  {
+    "career_code": "OBS",
+    "modality": "US",
+    "validity": ">=2024",
+    "sheet_name": "OBSUS>=2024",
+    "catalog_period": "224000"
+  },
+  {
+    "career_code": "NUT",
+    "modality": "US",
+    "validity": ">=2024",
+    "sheet_name": "NUTUS>=2024",
+    "catalog_period": "224000"
+  },
+  {
+    "career_code": "ENF",
+    "modality": "US",
+    "validity": ">=2024",
+    "sheet_name": "ENFUS>=2024",
+    "catalog_period": "224000"
+  },
+  {
+    "career_code": "PSI",
+    "modality": "WV",
+    "validity": ">=2024",
+    "sheet_name": "PSIWV>=2024",
+    "catalog_period": "224000"
+  },
+  {
+    "career_code": "ADI",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "ADIUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ADI",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "ADIUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ADM",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "ADMUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ADM",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "ADMUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ADM",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "ADMWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "AGC",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "AGCWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "AGE",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "AGEUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "AGP",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "AGPWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "AGR",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "AGRUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "AGT",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "AGTWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "AMB",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "AMBUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "AMB",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "AMBWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "AMK",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "AMKUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "AMK",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "AMKUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "AMK",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "AMKWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ANI",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "ANIUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ANI",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "ANIUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ANI",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "ANIWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "AST",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "ASTUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "AUR",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "AURUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "AUR",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "AURUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "CAM",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "CAMUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "CAM",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "CAMUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "CDG",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "CDGUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "CDG",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "CDGUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "CDG",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "CDGWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "CIV",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "CIVUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "CIV",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "CIVUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "CIV",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "CIVWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "CMD",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "CMDUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "CMD",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "CMDWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "COM",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "COMUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "CON",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "CONUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "CON",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "CONWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "CPE",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "CPEUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "CPU",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "CPUUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "DEH",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "DEHUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "DEH",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "DEHUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "DEH",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "DEHWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "DEH",
+    "modality": "WV",
+    "validity": ">=2025",
+    "sheet_name": "DEHWV>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "DIN",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "DINUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ECO",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "ECOUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ECO",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "ECOWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ELE",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "ELEUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "EMP",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "EMPUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ENF",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "ENFUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ENI",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "ENIUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "GEO",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "GEOUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "GGR",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "GGRUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "GGR",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "GGRUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "GPU",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "GPUWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ICD",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "ICDUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "IND",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "INDUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "IND",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "INDUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "IND",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "INDWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "IND",
+    "modality": "WV",
+    "validity": ">=2025",
+    "sheet_name": "INDWV>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ISW",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "ISWUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "MCT",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "MCTUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "MCT",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "MCTUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "MIN",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "MINUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "MIN",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "MINUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "MIN",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "MINWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "MKI",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "MKIUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "NII",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "NIIUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "NUT",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "NUTUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "NUT",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "NUTWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "OBS",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "OBSUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "PSI",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "PSIUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "PSI",
+    "modality": "WA",
+    "validity": ">=2025",
+    "sheet_name": "PSIWA>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "PSI",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "PSIWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "PSI",
+    "modality": "WV",
+    "validity": ">=2025",
+    "sheet_name": "PSIWV>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "SIC",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "SICUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "SIC",
+    "modality": "US",
+    "validity": ">=2025",
+    "sheet_name": "SICUS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "SIC",
+    "modality": "WS",
+    "validity": ">=2025",
+    "sheet_name": "SICWS>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "SIC",
+    "modality": "WV",
+    "validity": ">=2025",
+    "sheet_name": "SICWV>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "TFI",
+    "modality": "UG",
+    "validity": ">=2025",
+    "sheet_name": "TFIUG>=2025",
+    "catalog_period": "225000"
+  },
+  {
+    "career_code": "ADM",
+    "modality": "WV",
+    "validity": ">=2024",
+    "sheet_name": "ADMWV>=2024",
+    "catalog_period": "224000"
+  },
+  {
+    "career_code": "AMK",
+    "modality": "WV",
+    "validity": ">=2024",
+    "sheet_name": "AMKWV>=2024",
+    "catalog_period": "224000"
+  },
+  {
+    "career_code": "CMD",
+    "modality": "WS",
+    "validity": ">=2024",
+    "sheet_name": "CMDWS>=2024",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CON",
+    "modality": "WV",
+    "validity": ">=2024",
+    "sheet_name": "CONWV>=2024",
+    "catalog_period": "224000"
+  },
+  {
+    "career_code": "DEH",
+    "modality": "WV",
+    "validity": ">=2024",
+    "sheet_name": "DEHWV>=2024",
+    "catalog_period": "224000"
+  },
+  {
+    "career_code": "ISR",
+    "modality": "US",
+    "validity": ">=2024",
+    "sheet_name": "ISRUS>=2024",
+    "catalog_period": 224000
+  },
+  {
+    "career_code": "SIC",
+    "modality": "WV",
+    "validity": ">=2024",
+    "sheet_name": "SICWV>=2024",
+    "catalog_period": "224000"
+  },
+  {
+    "career_code": "ABF",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "ABFUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ABF",
+    "modality": "WV",
+    "validity": ">=2023",
+    "sheet_name": "ABFWV>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ADI",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "ADIUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ADM",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "ADMUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ADM",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "ADMWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ADM",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "ADMWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ADM",
+    "modality": "WV",
+    "validity": ">=2023",
+    "sheet_name": "ADMWV>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AGC",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "AGCUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AGC",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "AGCWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AGC",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "AGCWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AGC",
+    "modality": "WV",
+    "validity": ">=2023",
+    "sheet_name": "AGCWV>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AGR",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "AGRUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AGT",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "AGTUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AGT",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "AGTWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AGT",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "AGTWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AGT",
+    "modality": "WV",
+    "validity": ">=2023",
+    "sheet_name": "AGTWV>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AMB",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "AMBUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AMB",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "AMBWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AMB",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "AMBWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AMK",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "AMKUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AMK",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "AMKWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AMK",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "AMKWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AMK",
+    "modality": "WV",
+    "validity": ">=2023",
+    "sheet_name": "AMKWV>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ANI",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "ANIUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ANI",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "ANIWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ANI",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "ANIWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ANI",
+    "modality": "WV",
+    "validity": ">=2023",
+    "sheet_name": "ANIWV>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AST",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "ASTUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "AUR",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "AURUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CAM",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "CAMUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CCR",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "CCRUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CDG",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "CDGUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CDG",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "CDGWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CDG",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "CDGWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CIV",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "CIVUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CIV",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "CIVWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CIV",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "CIVWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CMD",
+    "modality": "US",
+    "validity": ">=2023",
+    "sheet_name": "CMDUS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CMD",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "CMDWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "COM",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "COMUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "COM",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "COMWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "COM",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "COMWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CON",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "CONUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CON",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "CONWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CON",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "CONWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CON",
+    "modality": "WV",
+    "validity": ">=2023",
+    "sheet_name": "CONWV>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CPE",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "CPEUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "CPU",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "CPUUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "DEH",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "DEHUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "DEH",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "DEHWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "DEH",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "DEHWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "DEH",
+    "modality": "WV",
+    "validity": ">=2023",
+    "sheet_name": "DEHWV>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "DIN",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "DINUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ECO",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "ECOUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ECO",
+    "modality": "WV",
+    "validity": ">=2023",
+    "sheet_name": "ECOWV>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "EDG",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "EDGUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ELE",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "ELEUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "EMP",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "EMPUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "EMP",
+    "modality": "WV",
+    "validity": ">=2023",
+    "sheet_name": "EMPWV>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ENF",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "ENFUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ENI",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "ENIUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ENI",
+    "modality": "WV",
+    "validity": ">=2023",
+    "sheet_name": "ENIWV>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "GEO",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "GEOUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "GGR",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "GGRUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "GPU",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "GPUUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "GPU",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "GPUWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "GPU",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "GPUWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "GPU",
+    "modality": "WV",
+    "validity": ">=2023",
+    "sheet_name": "GPUWV>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ILT",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "ILTUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "IND",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "INDUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "IND",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "INDWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "IND",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "INDWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "IND",
+    "modality": "WV",
+    "validity": ">=2023",
+    "sheet_name": "INDWV>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "MCT",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "MCTUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "MEH",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "MEHUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "MIN",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "MINUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "MIN",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "MINWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "MIN",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "MINWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "NUT",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "NUTUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "NUT",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "NUTWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "NUT",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "NUTWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "OBS",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "OBSUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "PSI",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "PSIUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "PSI",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "PSIWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "PSI",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "PSIWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "PSI",
+    "modality": "WV",
+    "validity": ">=2023",
+    "sheet_name": "PSIWV>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "SIC",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "SICUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "SIC",
+    "modality": "WA",
+    "validity": ">=2023",
+    "sheet_name": "SICWA>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "SIC",
+    "modality": "WS",
+    "validity": ">=2023",
+    "sheet_name": "SICWS>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "SIC",
+    "modality": "WV",
+    "validity": ">=2023",
+    "sheet_name": "SICWV>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "TFI",
+    "modality": "UG",
+    "validity": ">=2023",
+    "sheet_name": "TFIUG>=2023",
+    "catalog_period": "223000"
+  },
+  {
+    "career_code": "ABF",
+    "modality": "UG",
+    "validity": ">=2021",
+    "sheet_name": "ABFUG>=2021",
+    "catalog_period": "221000"
+  },
+  {
+    "career_code": "ADI",
+    "modality": "WA",
+    "validity": ">=2021",
+    "sheet_name": "AGTWA>=2021",
+    "catalog_period": "221000"
+  },
+  {
+    "career_code": "AGT",
+    "modality": "UG",
+    "validity": ">=2021",
+    "sheet_name": "AGTUG>=2021",
+    "catalog_period": "221000"
+  },
+  {
+    "career_code": "AGT",
+    "modality": "WA",
+    "validity": ">=2021",
+    "sheet_name": "AGTWA>=2021",
+    "catalog_period": "221000"
+  },
+  {
+    "career_code": "ADI",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "ADIUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "ADM",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "ADMUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "ADM",
+    "modality": "WA",
+    "validity": ">=2020",
+    "sheet_name": "ADMWA>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "AGC",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "AGCUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "AGC",
+    "modality": "WA",
+    "validity": ">=2020",
+    "sheet_name": "AGCWA>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "AGR",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "AGRUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "AMB",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "AMBUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "AMB",
+    "modality": "WA",
+    "validity": ">=2020",
+    "sheet_name": "AMBWA>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "AMK",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "AMKUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "AMK",
+    "modality": "WA",
+    "validity": ">=2020",
+    "sheet_name": "AMKWA>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "ANI",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "ANIUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "ANI",
+    "modality": "WA",
+    "validity": ">=2020",
+    "sheet_name": "ANIWA>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "AST",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "ASTUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "AUR",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "AURUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "CAM",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "CAMUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "CCR",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "CCRUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "CDG",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "CDGUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "CDG",
+    "modality": "WA",
+    "validity": ">=2020",
+    "sheet_name": "CDGWA>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "CIV",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "CIVUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "CIV",
+    "modality": "WA",
+    "validity": ">=2020",
+    "sheet_name": "CIVWA>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "COM",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "COMUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "COM",
+    "modality": "WA",
+    "validity": ">=2020",
+    "sheet_name": "COMWA>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "CON",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "CONUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "CON",
+    "modality": "WA",
+    "validity": ">=2020",
+    "sheet_name": "CONWA>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "CPE",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "CPEUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "CPU",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "CPUUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "DEH",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "DEHUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "DEH",
+    "modality": "WA",
+    "validity": ">=2020",
+    "sheet_name": "DEHWA>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "DIN",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "DINUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "ECO",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "ECOUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "EDG",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "EDGUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "ELE",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "ELEUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "EMP",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "EMPUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "ENF",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "ENFUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "ENI",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "ENIUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "GEO",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "GEOUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "GGR",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "GGRUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "GPU",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "GPUUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "GPU",
+    "modality": "WA",
+    "validity": ">=2020",
+    "sheet_name": "GPUWA>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "ILT",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "ILTUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "IND",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "INDUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "IND",
+    "modality": "WA",
+    "validity": ">=2020",
+    "sheet_name": "INDWA>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "MCT",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "MCTUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "MIN",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "MINUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "MIN",
+    "modality": "WA",
+    "validity": ">=2020",
+    "sheet_name": "MINWA>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "NUT",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "NUTUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "NUT",
+    "modality": "WA",
+    "validity": ">=2020",
+    "sheet_name": "NUTWA>=2020",
+    "catalog_period": 220000
+  },
+  {
+    "career_code": "OBS",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "OBSUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "PSI",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "PSIUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "PSI",
+    "modality": "WA",
+    "validity": ">=2020",
+    "sheet_name": "PSIWA>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "SIC",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "SICUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "SIC",
+    "modality": "WA",
+    "validity": ">=2020",
+    "sheet_name": "SICWA>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "TFI",
+    "modality": "UG",
+    "validity": ">=2020",
+    "sheet_name": "TFIUG>=2020",
+    "catalog_period": "220000"
+  },
+  {
+    "career_code": "ADI",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "ADIUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "ADM",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "ADMUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "ADM",
+    "modality": "WA",
+    "validity": ">=2019",
+    "sheet_name": "ADMWA>=2019",
+    "catalog_period": "201660"
+  },
+  {
+    "career_code": "AGC",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "AGCUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "AGC",
+    "modality": "WA",
+    "validity": ">=2019",
+    "sheet_name": "AGCWA>=2019",
+    "catalog_period": "201660"
+  },
+  {
+    "career_code": "AGR",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "AGRUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "AMB",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "AMBUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "AMB",
+    "modality": "WA",
+    "validity": ">=2019",
+    "sheet_name": "AMBWA>=2019",
+    "catalog_period": "201660"
+  },
+  {
+    "career_code": "AMK",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "AMKUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "AMK",
+    "modality": "WA",
+    "validity": ">=2019",
+    "sheet_name": "AMKWA>=2019",
+    "catalog_period": "201660"
+  },
+  {
+    "career_code": "ANI",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "ANIUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "ANI",
+    "modality": "WA",
+    "validity": ">=2019",
+    "sheet_name": "ANIWA>=2019",
+    "catalog_period": "201660"
+  },
+  {
+    "career_code": "AST",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "ASTUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "AUR",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "AURUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "CAM",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "CAMUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "CCR",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "CCRUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "CDG",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "CDGUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "CIV",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "CIVUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "CIV",
+    "modality": "WA",
+    "validity": ">=2019",
+    "sheet_name": "CIVWA>=2019",
+    "catalog_period": "201660"
+  },
+  {
+    "career_code": "COM",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "COMUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "CON",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "CONUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "CON",
+    "modality": "WA",
+    "validity": ">=2019",
+    "sheet_name": "CONWA>=2019",
+    "catalog_period": "201660"
+  },
+  {
+    "career_code": "CPE",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "CPEUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "CPU",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "CPUUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "DEH",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "DEHUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "DEH",
+    "modality": "WA",
+    "validity": ">=2019",
+    "sheet_name": "DEHWA>=2019",
+    "catalog_period": "201660"
+  },
+  {
+    "career_code": "DIN",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "DINUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "ECO",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "ECOUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "EDG",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "EDGUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "ELE",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "ELEUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "EMP",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "EMPUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "ENF",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "ENFUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "ENI",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "ENIUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "GEO",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "GEOUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "GGR",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "GGRUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "GPU",
+    "modality": "WA",
+    "validity": ">=2019",
+    "sheet_name": "GPUWA>=2019",
+    "catalog_period": "201660"
+  },
+  {
+    "career_code": "ILT",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "ILTUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "IND",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "INDUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "IND",
+    "modality": "WA",
+    "validity": ">=2019",
+    "sheet_name": "INDWA>=2019",
+    "catalog_period": "201660"
+  },
+  {
+    "career_code": "MCT",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "MCTUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "MIN",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "MINUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "MIN",
+    "modality": "WA",
+    "validity": ">=2019",
+    "sheet_name": "MINWA>=2019",
+    "catalog_period": "201660"
+  },
+  {
+    "career_code": "NUT",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "NUTUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "NUT",
+    "modality": "WA",
+    "validity": ">=2019",
+    "sheet_name": "NUTWA>=2019",
+    "catalog_period": "201660"
+  },
+  {
+    "career_code": "OBS",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "OBSUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "PSI",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "PSIUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "PSI",
+    "modality": "WA",
+    "validity": ">=2019",
+    "sheet_name": "PSIWA>=2019",
+    "catalog_period": "201660"
+  },
+  {
+    "career_code": "SIC",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "SICUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "SIC",
+    "modality": "WA",
+    "validity": ">=2019",
+    "sheet_name": "SICWA>=2019",
+    "catalog_period": "201660"
+  },
+  {
+    "career_code": "TFI",
+    "modality": "UG",
+    "validity": ">=2019",
+    "sheet_name": "TFIUG>=2019",
+    "catalog_period": 201605
+  },
+  {
+    "career_code": "IND",
+    "modality": "UG",
+    "validity": ">=2018",
+    "sheet_name": "INDUG>=2018",
+    "catalog_period": "218000"
+  },
+  {
+    "career_code": "IND",
+    "modality": "WA",
+    "validity": ">=2018",
+    "sheet_name": "INDWA>=2018",
+    "catalog_period": "218000"
+  }
+]

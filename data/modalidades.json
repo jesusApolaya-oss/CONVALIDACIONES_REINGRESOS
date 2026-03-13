@@ -1,0 +1,32 @@
+[
+  {
+    "code": "UG",
+    "name": "Pre-grado Presencial",
+    "doc_name": "UG"
+  },
+  {
+    "code": "US",
+    "name": "Pre-grado Semipresencial",
+    "doc_name": "US"
+  },
+  {
+    "code": "WA",
+    "name": "Adulto Presencial",
+    "doc_name": "WAP"
+  },
+  {
+    "code": "WS",
+    "name": "Adulto Semipresencial",
+    "doc_name": "WAS"
+  },
+  {
+    "code": "WV",
+    "name": "Adulto Virtual",
+    "doc_name": "WA CAD"
+  },
+  {
+    "code": "SI VA A INSERTAR FILAS HAGALO 1 FILA POR ENCIMA DE ESTA, O 2 POR DEBAJO DE LA PRIMERA",
+    "name": null,
+    "doc_name": null
+  }
+]

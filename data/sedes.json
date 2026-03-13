@@ -1,0 +1,46 @@
+[
+  {
+    "name": "ATE",
+    "code": "LE1"
+  },
+  {
+    "name": "BREÑA",
+    "code": "LC0"
+  },
+  {
+    "name": "CAJAMARCA",
+    "code": "CAJ"
+  },
+  {
+    "name": "CHORRILLOS",
+    "code": "LS0"
+  },
+  {
+    "name": "COMAS",
+    "code": "LN1"
+  },
+  {
+    "name": "LOS OLIVOS",
+    "code": "LN0"
+  },
+  {
+    "name": "SAN JUAN DE LURIGANCHO",
+    "code": "LE0"
+  },
+  {
+    "name": "TRUJILLO, EL MOLINO",
+    "code": "TML"
+  },
+  {
+    "name": "TRUJILLO, SAN ISIDRO",
+    "code": "TSI"
+  },
+  {
+    "name": "VIRTUAL",
+    "code": "VIR"
+  },
+  {
+    "name": "SI VA A INSERTAR FILAS HAGALO 1 FILA POR ENCIMA DE ESTA, O 2 POR DEBAJO DE LA PRIMERA",
+    "code": null
+  }
+]
